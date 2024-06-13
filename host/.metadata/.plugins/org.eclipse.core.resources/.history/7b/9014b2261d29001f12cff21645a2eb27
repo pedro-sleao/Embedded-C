@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 12, 2024
+ *      Author: pedro
+ */
+
+#include <stdio.h>
+#include "math.h"
+
+int main(void)
+{
+	printf("Add: %d\n", add(1, 2));
+	printf("Sub: %d\n", subtract(1, 2));
+	printf("Mul: %I64d\n", multiply(1, 2));
+	printf("Div: %f\n", divide(1, 2));
+
+	return 0;
+}
+
