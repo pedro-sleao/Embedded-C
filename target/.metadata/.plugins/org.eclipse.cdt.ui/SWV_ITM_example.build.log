@@ -1,17 +1,10 @@
-21:48:05 **** Incremental Build of configuration Debug for project SWV_ITM_example ****
+21:46:02 **** Incremental Build of configuration Debug for project SWV_ITM_example ****
 make -j12 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "SWV_ITM_example.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\pedro\OneDrive\Documentos\Embedded-C\target\SWV_ITM_example\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SWV_ITM_example.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SWV_ITM_example.elf
- 
 arm-none-eabi-size  SWV_ITM_example.elf 
-arm-none-eabi-objdump -h -S SWV_ITM_example.elf  > "SWV_ITM_example.list"
    text	   data	    bss	    dec	    hex	filename
    3292	     92	   1900	   5284	   14a4	SWV_ITM_example.elf
 Finished building: default.size.stdout
  
-Finished building: SWV_ITM_example.list
- 
 
-21:48:05 Build Finished. 0 errors, 0 warnings. (took 343ms)
+21:46:03 Build Finished. 0 errors, 0 warnings. (took 139ms)
 

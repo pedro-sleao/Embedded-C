@@ -87,9 +87,10 @@ int main(void)
 {
  8000170:	b580      	push	{r7, lr}
  8000172:	af00      	add	r7, sp, #0
-	/**
-	 * Foi feita uma modificação no arquivo syscalls.c na função _write
 	 * para utilizar o ITM_sendchar.
+	 *
+	 * (Não consegui testar o código porque o ST-LINK V2 clone não tem o pino
+	 * SWO).
 	 */
 	printf("Hello World\n");
  8000174:	4802      	ldr	r0, [pc, #8]	@ (8000180 <main+0x10>)
