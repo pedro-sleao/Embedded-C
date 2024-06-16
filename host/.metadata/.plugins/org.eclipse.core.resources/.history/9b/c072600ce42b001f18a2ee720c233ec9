@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 16, 2024
+ *      Author: pedro
+ */
+
+#include <stdio.h>
+
+long long int g_data = 0xFFFEABCD11112345;
+
+int main(void){
+	char *pAddress = (char*)&g_data;
+
+	printf("Value of pAddress %p\n", p);
+	printf("Value at address %p is %x\n", p, *p);
+
+	return 0;
+}

@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 16, 2024
+ *      Author: pedro
+ */
+
+#include <stdio.h>
+
+int main(void){
+
+
+	return 0;
+}

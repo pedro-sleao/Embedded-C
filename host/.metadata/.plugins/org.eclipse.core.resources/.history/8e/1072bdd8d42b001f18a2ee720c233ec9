@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 16, 2024
+ *      Author: pedro
+ */
+
+#include <stdio.h>
+
+int main(void){
+	char data = 100;
+	printf("Address of data = %p\n", &data);
+
+	char* pData = &data;
+	printf("Fetched data from the pointer = %d\n", *pData);
+
+	*pData = 65;
+	printf("Fetched data from the pointer = %d", *pData);
+
+	return 0;
+}

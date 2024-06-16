@@ -1,5 +1,5 @@
-09:47:29 **** Incremental Build of configuration Debug for project floating_point ****
+10:30:15 **** Incremental Build of configuration Debug for project pointer_1 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o floating_point.exe main.o 
-Info: Nothing to build for floating_point
+gcc -o pointer_1.exe main.o 
+Info: Nothing to build for pointer_1
